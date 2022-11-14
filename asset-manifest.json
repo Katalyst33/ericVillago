@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/ericVillago/static/js/main.e8ecd0e4.js",
+    "static/media/panter.jpg": "/ericVillago/static/media/panter.694a366ee1604d717253.jpg",
+    "static/media/hikes.jpg": "/ericVillago/static/media/hikes.8365fa78a01c92ec1de8.jpg",
+    "static/media/Stretch.jpg": "/ericVillago/static/media/Stretch.10415d6197733e274d58.jpg",
+    "static/media/aerobics.jpg": "/ericVillago/static/media/aerobics.30d68b3d12da5cae6958.jpg",
+    "static/media/Squats.jpg": "/ericVillago/static/media/Squats.6dedc8c41891f49dba05.jpg",
+    "index.html": "/ericVillago/index.html",
+    "main.e8ecd0e4.js.map": "/ericVillago/static/js/main.e8ecd0e4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e8ecd0e4.js"
+  ]
+}
