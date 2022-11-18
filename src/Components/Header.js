@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import {GiHamburgerMenu} from "react-icons/gi"
 const Header = () => {
 
@@ -22,9 +22,9 @@ const Header = () => {
               <Link to="/contact"><motion.p whileTap={{scale:0.7}} className='hover:text-black text-lg cursor-pointer'>Contact</motion.p></Link>
           </motion.div>
 
-          <div>
-              <p className="font-bold italic">Get Started</p>
-          </div>
+          <Link to = "/free-training"><div>
+              <p className="font-bold italic">Free Training</p>
+          </div></Link>
       </div>
 
       {/* Mobile View */}

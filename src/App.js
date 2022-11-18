@@ -5,6 +5,7 @@ import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
 import About from "./Pages/About";
 import NotFound from "./Pages/NotFound";
+import FreeTraining from "./Pages/FreeTraining";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="contact" element={<Contact/>}/>
         <Route path="about" element={<About/>}/>
         <Route path="*" element={<NotFound/>}/>
+        <Route path="free-training" element={<FreeTraining/>}/>
       </Routes>
       <Footer />
     </div>

@@ -57,7 +57,7 @@ const Home = () => {
         <div className='lg:w-4/12'>
           <p className='text-red-800 bg-white rounded-lg w-max px-3 py-1 shadow-md'>- Features -</p>
           <p className="font-bold text-3xl mt-2">Quality sessions that gets you maximum results</p>
-          <motion.button whileTap={{scale:0.7}} className="mt-5 rounded-lg bg-orange-600 px-4 py-2 text-white hover:bg-orange-800">Sneak Pic</motion.button>
+          <motion.button whileTap={{scale:0.7}} className="mt-5 rounded-lg bg-orange-600 px-4 py-2 text-white hover:bg-orange-800">See Our Plans</motion.button>
         </div>
 
         <div className="lg:flex lg:3/6 mt-8 lg:mt-0 gap-5">
@@ -135,7 +135,7 @@ const Home = () => {
           >
           <SwiperSlide className=" flex flex-col items-center py-20 px-14">
               <p className="italic text-lg mb-8">
-                “2 years ago, I couldn't see my genitals why standing but right now, I am 
+                “2 years ago, I couldn't see my genitals while standing but right now, I am 
                 as fit as a military uniform”
               </p>
               <img alt="Client review 1" src={Brian} className='rounded-full mb-3 shadow-md h-14 w-14'/>
